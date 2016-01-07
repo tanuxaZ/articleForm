@@ -53,4 +53,4 @@ if (!$article->addArticle($insertData)) {
     exit;
 }
 
-//header("Location: " . '/index.php');
+header("Location: " . '/index.php');
